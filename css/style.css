@@ -41,7 +41,6 @@ footer {
 
 .login-win {
     height: 100%;
-    width: 430px;
     position: relative;
 }
 
@@ -50,6 +49,7 @@ footer {
     background-size: 100%;
     width: 300px;
     height: 281px;
+    z-index: 2;
 }
 
 .t-down {
@@ -60,6 +60,7 @@ footer {
     bottom: 0px;
     right: 0;
     position: absolute;
+    z-index: 1;
 }
 
 .login-public,
@@ -153,6 +154,7 @@ footer {
     height: 410px;
 }
 
+.history,
 .win3 {
     background: #151F24;
     margin: 5px;
@@ -165,11 +167,11 @@ footer {
 }
 
 .win4 {
-    height: 290px;
+    height: 280px;
 }
 
 .win5 {
-    height: 240px;
+    height: 210px;
 }
 
 
@@ -246,6 +248,7 @@ footer {
 .logo {
     width: 100vw;
     height: 80px;
+    z-index: 9;
 }
 
 .logo-footer {
@@ -270,7 +273,7 @@ footer {
     width: 28px;
     height: 28px;
     top: -3px;
-    right: -45px;
+    left: 40px;
     float: right;
     position: relative;
 }
