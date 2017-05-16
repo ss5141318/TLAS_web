@@ -1,0 +1,366 @@
+html,
+body {
+    background-color: #18282F;
+}
+
+footer {
+    background: #151F24;
+    width: auto;
+    height: 372px;
+}
+
+
+/*--note  歷史統計 -- */
+
+
+/*--note  視窗樣式 -- */
+
+.title {
+    /*
+    position: relative;
+    padding: 0.31rem 0.9rem;
+    width: auto;
+*/
+    color: #ffffff;
+    cursor: pointer;
+    /*
+    white-space: nowrap;
+    font-size: 0.9375rem;
+    line-height: 1.55rem;
+*/
+}
+
+.login-win,
+.history {
+    background: rgba(21, 31, 36, 0.9);
+}
+
+.history {
+    height: 94px;
+}
+
+.login-win {
+    height: 100%;
+    width: 430px;
+    position: relative;
+}
+
+.t-up {
+    background: url(../img/t-up.svg)no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 281px;
+}
+
+.t-down {
+    background: url(../img/t-down-01.svg)no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 281px;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+}
+
+.login-public,
+.login-civil {
+    background: #151F24;
+    opacity: 0.9;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-filter: grayscale(1);
+    height: 143px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.login-public:before {
+    content: url(../img/public.png);
+}
+
+.login-civil:before {
+    content: url(../img/civil.png)
+}
+
+.login-public {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+}
+
+.login-civil {
+    -webkit-clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.login-public:hover {
+    -webkit-filter: none;
+}
+
+.login-civil:hover {
+    -webkit-filter: none;
+}
+
+
+/*-- note opacity example-- */
+
+
+/* .hover {position:relative;}
+
+.hover img {
+  position:absolute;
+  CSS3淡出淡入效果,1秒
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+  opacity:0; 滑鼠滑入時，透明度變0
+}
+ */
+
+.r1 {
+    border-left: 3px solid #00FBFF;
+}
+
+.r2 {
+    border-top: 3px solid #00FBFF;
+}
+
+.r3 {
+    border-top: 10px solid #00FBFF;
+}
+
+.win,
+.win2,
+.win4,
+.win5 {
+    background: #151F24;
+    margin: 2.5px;
+    opacity: 0.9;
+}
+
+.win {
+    height: 176px;
+}
+
+.win2 {
+    height: 410px;
+}
+
+.win3 {
+    background: #151F24;
+    margin: 5px;
+    opacity: 0.9;
+    height: 94px;
+}
+
+.win3>div {
+    float: left;
+}
+
+.win4 {
+    height: 290px;
+}
+
+.win5 {
+    height: 240px;
+}
+
+
+/*--  首頁-調整圖層 -- */
+
+.adj {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.map {
+    background: url(../img/map.png) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.mask {
+    background-image: radial-gradient(circle at 61% 48%, #eeeeee, rgba(236, 236, 236, 0.91) 40%, rgba(216, 216, 216, 0.0));
+}
+
+.adj {
+    background-image: radial-gradient(circle at 50% 15%, rgba(0, 197, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/山.jpg);
+}
+
+.chartBanner {
+    background: rgba(0, 0, 0, 0.5);
+    height: 650px;
+    width: 100%;
+}
+
+
+/*--  logo margin -- */
+
+.leader-logo {
+    margin-top: 10.706rem;
+}
+
+
+/*--note background -- */
+
+.b101 {
+    background-image: url(../img/101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 831px;
+}
+
+.b3 {
+    background-image: url(../img/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 986px;
+}
+
+.b4 {
+    background-image: url(../img/b4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 1060px;
+}
+
+
+/*--note icon --*/
+
+.logo,
+.logo-footer {
+    background: url(../img/logo.svg)no-repeat;
+}
+
+.logo {
+    width: 100vw;
+    height: 80px;
+}
+
+.logo-footer {
+    background-size: 100%;
+    width: 161.8px;
+    height: 43.6px;
+}
+
+.ncdr {
+    background: url(../img/NCDR_logo.png)no-repeat;
+    background-size: 100%;
+    height: 44px;
+    width: 164px;
+}
+
+
+/*--note login-icon --*/
+
+.login-title:after {
+    content: "";
+    background: url(../img/arrow_icon_r.svg)no-repeat;
+    width: 28px;
+    height: 28px;
+    top: -3px;
+    float: right;
+    position: relative;
+}
+
+.icon-system:before {
+    content: "";
+    background-image: url('../img/system_icon.svg');
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 89px;
+    display: inline-block;
+    background-position: center;
+}
+
+.module_icon:before {
+    content: "";
+    background-image: url('../img/module_icon.svg');
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 89px;
+    display: inline-block;
+    background-position: center;
+}
+
+.apply_icon:before {
+    content: "";
+    background-image: url('../img/apply_icon.svg');
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 89px;
+    display: inline-block;
+    background-position: center;
+}
+
+.future_icon:before {
+    content: "";
+    background-image: url('../img/future_icon.svg');
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 89px;
+    display: inline-block;
+    background-position: center;
+}
+
+.carousel-dot.is-active {
+    background-color: #00FBFF;
+}
+
+.carousel-dot:hover {
+    text-decoration: none;
+    background-color: #00FBFF;
+}
+
+.carousel-dot {
+    background-color: #304249;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    width: 2em;
+    height: 0.25em;
+    display: inline-block;
+}
+
+.carousel-nav {
+    text-align: center;
+    position: relative;
+}
+
+.carousel-panel {
+    display: none;
+}
+
+.carousel-panel.is-active {
+    display: block;
+}
+
+
+/*--note 按鈕樣式 */
+
+.btn,
+.btn2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn {
+    border-style: none;
+    display: block;
+}
+
+.btn2 {
+    border-radius: 25px;
+    border: solid 2px #00c6e3;
+    margin: 0 auto;
+}
