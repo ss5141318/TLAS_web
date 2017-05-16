@@ -12,12 +12,11 @@
     <title>TLAS</title>
     <link rel="shortcut icon" href="/img/favicon.ico">
     <!-- get calcite-web css from the cdn (use latest version) -->
-
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.4/css/calcite-web.min.css">
     <!--[if lt IE 9]>
       <script src="/assets/javascripts/libs/selectivizr.js"></script>
       <script src="/assets/javascripts/libs/html5shiv.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="css/calcite-web%20.css">
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -76,6 +75,8 @@
 
         <!-- note  最新消息-->
         <section class="b101 r3">
+
+
             <div class=" right padding-leader-6  ">
                 <div class="column-9 pre-2 win2 r2 ">
 
@@ -100,20 +101,17 @@
                                 <td>z</td>
                             </tr>
                         </tbody>
-
+                        <tfoot> </tfoot>
                     </table>
-                    <tfoot>
-                        <div class="text-center trailer-1 leader-1">
-                            <a href="#" class="btn btn-transparent btn-disabled">Previous</a>
-                            <a href="#" class="btn">1</a>
-                            <a href="#" class="btn btn-transparent">2</a>
-                            <a href="#" class="btn btn-transparent">3</a>
-                            <span class="avenir-light text-light-gray">...</span>
-                            <a href="#" class="btn btn-transparent">20</a>
-                            <a href="#" class="btn btn-transparent btn-arrow">Next</a>
-                        </div>
-                    </tfoot>
-
+                    <div class="text-center trailer-1 leader-1">
+                        <a href="#" class="btn btn-transparent btn-disabled">Previous</a>
+                        <a href="#" class="btn">1</a>
+                        <a href="#" class="btn btn-transparent">2</a>
+                        <a href="#" class="btn btn-transparent">3</a>
+                        <span class="avenir-light text-light-gray">...</span>
+                        <a href="#" class="btn btn-transparent">20</a>
+                        <a href="#" class="btn btn-transparent btn-arrow">Next</a>
+                    </div>
                 </div>
                 <div class="column-9 win2 r2 ">
                     <div class="title padding-leader-half">災損新聞</div>
@@ -137,13 +135,22 @@
                                 <td>z</td>
                             </tr>
                         </tbody>
-                    </table>
 
+                    </table>
+                    <div class="text-center trailer-1 leader-6 ">
+                        <a href="#" class="btn btn-transparent btn-disabled">Previous</a>
+                        <a href="#" class="btn">1</a>
+                        <a href="#" class="btn btn-transparent">2</a>
+                        <a href="#" class="btn btn-transparent">3</a>
+                        <span class="avenir-light text-light-gray">...</span>
+                        <a href="#" class="btn btn-transparent">20</a>
+                        <a href="#" class="btn btn-transparent btn-arrow">Next</a>
+                    </div>
                 </div>
                 <div class="column-4 win2 r2 ">
                     <div class="title padding-leader-half">問券調查</div>
-                    <p>Lorem ipsum doalor sit amet, consectetur adipisicing elit. Porro voluptas nisi fugiat harum architecto placeat dignissimos beatae temporibus. Exercitationem perferendis, quibusdam aut nisi atque ducimus est molestiae laboriosam ipsum tempore.</p>
-                    <div class=" btn2">瞭解更多</div>
+                    <p>Lorem ipsum doalor sit amet, consectetur adipisicing elit. Porro voluptas nisi fugiat harrendis, quibusdam aut nisi atque ducimus est molestiae laboriosam ipsum tempore.</p>
+                    <div class=" trailer-1 leader-4  btn2">瞭解更多</div>
                 </div>
             </div>
         </section>
@@ -175,12 +182,13 @@
                     <div class="column-4"></div>
                 </div>
             </div>
-            <div class="login-win colum-6 right ">
+            <!-- note  登入視窗 -->
+            <div class="login-win column-8 right ">
                 <div class="t-up right"></div>
                 <div class="leader-6">
-                    <div class="pre-1 leader-6 logo"></div>
+                    <div class="pre-1 logo "></div>
                     <div class="r1 colum-3 right leader-6 inline-block ">
-                        <!-- note  登入 -->
+                        <!-- note  帳號密碼 -->
                         <label>帳號
   <input type="text" class="input-success " value="請輸入帳號" required>
 </label>
@@ -219,27 +227,20 @@
                 <div class=" right column-22  win5 r2 ">
                     <div class="pre-1 padding-leader-half">
                         <div class="title">合作單位</div>
-                        <!--
-                    <div class="inline-block">
-                        <div class="column3"></div>
-                        <div class="column3"></div>
-                        <div class="column3"></div>
-                        <div class="column3"></div>
-                        <div class="column3"></div>
-                        <div class="column3"></div>
-                    </div>
--->
-                        <!-- note carousel -->
+
                         <div class="carousel leader-1">
                             <div class="carousel-panel is-active" data-toggle-set="carousel" data-toggle="foo">
-                                <img src="../img/caey.png" alt="農委會">
+                                <img src="../img/swcb.png" alt="農委會">
                                 <div class="">農委會</div>
                             </div>
                             <div class="carousel-panel" data-toggle-set="carousel" data-toggle="baz">
                                 <img src="../img/swcb.png" alt="two">
+                                <div class="">農委會</div>
                             </div>
                             <div class="carousel-panel" data-toggle-set="carousel" data-toggle="bar">
                                 <img src="../img/水利署.png" alt="three">
+                                <div class="">農委會</div>
+
                             </div>
                         </div>
 
@@ -274,6 +275,7 @@
         <div class="column-6 r1">相關連結</div>
         <div class="column-6 r1">關於我們</div>
         <div class="column-24 leader-1">
+
             地址：23143新北市新店區北新路三亂200號9樓 總機：02-8195-8600 如對本站有任何問題或意見，請聯絡國家災害防救科技中心，最佳瀏覽解析度為1280x768以上
         </div>
     </footer>
@@ -286,11 +288,12 @@
 
 
     <!-- get calcite-web js from the cdn (use latest version) -->
-    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.3/js/calcite-web.min.js"></script>
+    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.4/js/calcite-web.min.js"></script>
 
     <!-- interactive patterns need to be initialized -->
     <script>
         calcite.init()
+
     </script>
 
 </body>

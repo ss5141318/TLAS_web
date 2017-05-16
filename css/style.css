@@ -9,6 +9,10 @@ footer {
     height: 372px;
 }
 
+.block {
+    display: block;
+}
+
 
 /*--note  歷史統計 -- */
 
@@ -17,17 +21,16 @@ footer {
 
 .title {
     /*
+    
     position: relative;
     padding: 0.31rem 0.9rem;
     width: auto;
 */
     color: #ffffff;
     cursor: pointer;
-    /*
     white-space: nowrap;
     font-size: 0.9375rem;
     line-height: 1.55rem;
-*/
 }
 
 .login-win,
@@ -62,6 +65,9 @@ footer {
     position: absolute;
     z-index: 1;
 }
+
+
+/*--note 公家產業 登入樣式 -- */
 
 .login-public,
 .login-civil {
@@ -125,6 +131,9 @@ footer {
 }
  */
 
+
+/*--note  視窗裝飾 -- */
+
 .r1 {
     border-left: 3px solid #00FBFF;
 }
@@ -171,11 +180,83 @@ footer {
 }
 
 .win5 {
-    height: 210px;
+    height: 230px;
 }
 
 
-/*--  首頁-調整圖層 -- */
+/*--note  表格樣式 -- */
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #cccccc;
+    text-align: left;
+    overflow: auto;
+    font-size: 0.875rem;
+    line-height: 1.55rem;
+}
+
+html[dir="rtl"] table {
+    text-align: right;
+}
+
+table>thead {
+    background-color: #efefef;
+    border-bottom: 1px solid #cccccc;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.55rem;
+}
+
+table>thead b,
+table>thead strong {
+    font-weight: 500;
+}
+
+table>tbody {
+    overflow: auto;
+    width: 100%;
+}
+
+table>tfoot {
+    background-color: #efefef;
+    border-top: 1px solid #cccccc;
+}
+
+table th,
+table td {
+    font-weight: 300;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding: 0.51667rem;
+}
+
+html[dir="rtl"] table th,
+html[dir="rtl"] table td {
+    text-align: right;
+}
+
+table tr {
+    border-bottom: 1px solid #cccccc;
+    text-align: left;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table caption {
+    color: #959595;
+    caption-side: bottom;
+    line-height: 1.55rem;
+    padding: 0.3875rem 0.775rem;
+}
+
+
+/*--note  首頁-調整圖層 -- */
 
 .adj {
     width: 100%;
@@ -235,6 +316,10 @@ footer {
     background-size: cover;
     width: 100vw;
     height: 1060px;
+}
+
+.footer {
+    background-color: rgba(21, 31, 36, 0.8);
 }
 
 
@@ -360,11 +445,25 @@ footer {
 
 .btn {
     border-style: none;
-    display: block;
 }
 
 .btn2 {
     border-radius: 25px;
     border: solid 2px #00c6e3;
-    margin: 0 auto;
+}
+
+.top-nav-link:hover,
+.top-nav-link:focus {
+    color: #ffffff;
+    border-bottom-color: #00FBFF;
+    text-decoration: none;
+}
+
+a {
+    color: #304249;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00FBFF;
 }
