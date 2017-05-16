@@ -11,10 +11,23 @@ footer {
 
 .block {
     display: block;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0.9375rem;
+    line-height: 1.55rem;
 }
 
 
-/*--note  歷史統計 -- */
+/*--note  文字樣式 -- */
+
+.logo-title {
+    color: #00FBFF;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0.9375rem;
+    line-height: 1.55rem;
+    text-align: center;
+}
 
 
 /*--note  視窗樣式 -- */
@@ -294,7 +307,7 @@ table caption {
 
 /*--note background -- */
 
-.b101 {
+.bg101 {
     background-image: url(../img/101.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,7 +315,7 @@ table caption {
     height: 831px;
 }
 
-.b3 {
+.bg3 {
     background-image: url(../img/b3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +323,7 @@ table caption {
     height: 986px;
 }
 
-.b4 {
+.bg4 {
     background-image: url(../img/b4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
