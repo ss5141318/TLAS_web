@@ -60,6 +60,18 @@ footer {
     position: relative;
 }
 
+.r1 {
+    border-left: 3px solid #00FBFF;
+}
+
+.r2 {
+    border-top: 3px solid #00FBFF;
+}
+
+.r3 {
+    border-top: 10px solid #00FBFF;
+}
+
 .t-up {
     background: url(../img/t-up.svg)no-repeat;
     background-size: 100%;
@@ -145,19 +157,7 @@ footer {
  */
 
 
-/*--note  視窗裝飾 -- */
-
-.r1 {
-    border-left: 3px solid #00FBFF;
-}
-
-.r2 {
-    border-top: 3px solid #00FBFF;
-}
-
-.r3 {
-    border-top: 10px solid #00FBFF;
-}
+/*--note  視窗大小位置 -- */
 
 .win,
 .win2,
@@ -195,6 +195,8 @@ footer {
 .win5 {
     height: 230px;
 }
+
+.history {}
 
 
 /*--note  表格樣式 -- */
@@ -480,3 +482,5 @@ a {
 a:hover {
     color: #00FBFF;
 }
+
+.container {}
