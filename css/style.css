@@ -209,69 +209,19 @@ footer {
 table {
     width: 100%;
     background-color: transparent;
-    border-collapse: collapse;
-    border-spacing: 0;
     border: none;
-    text-align: left;
-    overflow: auto;
-    font-size: 0.875rem;
-    line-height: 1.55rem;
-}
-
-html[dir="rtl"] table {
-    text-align: right;
+    color: rgb(208, 208, 208);
 }
 
 table>thead {
     background-color: transparent;
     border-bottom: 1px solid #00FBFF;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    line-height: 1.55rem;
 }
 
-table>thead b,
-table>thead strong {
-    font-weight: 500;
-}
-
-table>tbody {
-    overflow: auto;
-    width: 100%;
-}
-
-table>tfoot {
-    background-color: none;
-    border-top: 1px solid #cccccc;
-}
-
+table tr,
 table th,
 table td {
-    font-weight: 300;
     border: none;
-    padding: 0.51667rem;
-}
-
-html[dir="rtl"] table th,
-html[dir="rtl"] table td {
-    text-align: right;
-}
-
-table tr {
-    border: none;
-    text-align: left;
-}
-
-table tr:last-child {
-    border-bottom: none;
-}
-
-table caption {
-    color: #959595;
-    caption-side: bottom;
-    line-height: 1.55rem;
-    padding: 0.3875rem 0.775rem;
 }
 
 
@@ -468,6 +418,10 @@ table caption {
 
 /*--note 按鈕樣式 */
 
+.btn-transparent {
+    color: #23c1c3;
+}
+
 .btn,
 .btn2 {
     text-align: center;
@@ -500,4 +454,4 @@ a:hover {
 }
 
 
-}
+.icon-ui-left
