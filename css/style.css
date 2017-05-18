@@ -9,6 +9,11 @@ footer {
     height: 372px;
 }
 
+
+
+
+
+
 .block {
     display: block;
     cursor: pointer;
@@ -83,6 +88,8 @@ footer {
     width: 300px;
     height: 281px;
     z-index: 2;
+    right: 0px;
+    position: absolute;
 }
 
 .t-down {
@@ -452,6 +459,3 @@ a {
 a:hover {
     color: #00FBFF;
 }
-
-
-.icon-ui-left
