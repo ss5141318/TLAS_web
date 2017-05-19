@@ -315,6 +315,7 @@ table td {
 .logo {
     width: 100vw;
     height: 80px;
+    background-position: 3.5%;
 }
 
 .logo-footer {
