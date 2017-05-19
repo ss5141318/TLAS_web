@@ -1,3 +1,7 @@
+* {
+    font-weight: 200;
+}
+
 html,
 body {
     background-color: #18282F;
@@ -7,12 +11,14 @@ footer {
     background: #151F24;
     width: auto;
     height: 372px;
+    color: rgb(208, 208, 208);
 }
 
-
-
-
-
+p {
+    font-size: 0.875rem;
+    line-height: 1.55rem;
+    color: #848484;
+}
 
 .block {
     display: block;
@@ -47,8 +53,9 @@ footer {
     color: #ffffff;
     cursor: pointer;
     white-space: nowrap;
-    font-size: 0.9375rem;
+    font-size: 1.1rem;
     line-height: 1.55rem;
+    font-weight: 100;
 }
 
 .login-win,
@@ -207,8 +214,6 @@ footer {
 .win5 {
     height: 230px;
 }
-
-.history {}
 
 
 /*--note  表格樣式 -- */
@@ -441,7 +446,14 @@ table td {
 
 .btn2 {
     border-radius: 25px;
-    border: solid 2px #00c6e3;
+    border: solid 2px #009eb5;
+    color: aliceblue;
+}
+
+.btn:hover,
+.btn2:hover {
+    text-decoration: none;
+    background-color: #009eb5;
 }
 
 .top-nav-link:hover,
