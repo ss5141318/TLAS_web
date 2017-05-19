@@ -111,7 +111,6 @@ footer {
     bottom: 0px;
     right: 0;
     position: absolute;
-    z-index: 1;
 }
 
 
@@ -322,7 +321,7 @@ table td {
 .logo2 {
     width: 100vw;
     height: 80px;
-    background-position: 4%;
+    background-position: 4.7%;
 }
 
 .logo2 {
