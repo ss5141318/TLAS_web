@@ -88,7 +88,8 @@ footer {
     border-top: 10px solid #00FBFF;
 }
 
-.r-logo {
+.r-logo,
+.r-logo2 {
     border-top: 3px solid #00FBFF;
     margin-top: 0.7%;
 }
@@ -517,5 +518,7 @@ a:hover {
         background-size: 70%;
         background-position: 50%;
     }
-    .
+    .r-logo2 {
+        display: none;
+    }
 }
