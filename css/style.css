@@ -311,7 +311,6 @@ table td {
 
 /*--note icon --*/
 
-.logo,
 .logo2,
 .logo-footer {
     background: url(../img/logo.svg)no-repeat;
@@ -319,9 +318,9 @@ table td {
 
 .logo,
 .logo2 {
-    width: 100vw;
-    height: 80px;
-    background-position: 4.7%;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
 }
 
 .logo2 {
@@ -503,4 +502,20 @@ a {
 
 a:hover {
     color: #00FBFF;
+}
+
+
+/*--note rwd*/
+
+@media screen and (max-width: 859px) {
+    .logo {}
+}
+
+@media screen and (max-width: 479px) {
+    .logo {
+        width: 100%;
+        background-size: 70%;
+        background-position: 50%;
+    }
+    .
 }
