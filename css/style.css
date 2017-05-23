@@ -21,6 +21,66 @@ footer {
 }
 
 
+/*--note  首頁-調整圖層 -- */
+
+.adj {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.map {
+    background: url(../img/map.png) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.adj {
+    background-image: radial-gradient(circle at 50% 15%, rgba(0, 197, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/山.jpg);
+}
+
+.chartBanner {
+    background: rgba(0, 0, 0, 0.5);
+    height: 650px;
+    width: 100%;
+}
+
+
+/*--note background -- */
+
+.bg101 {
+    background-image: url(../img/101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 831px;
+}
+
+.bg3 {
+    background-image: url(../img/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 986px;
+}
+
+.bg4 {
+    background-image: url(../img/b4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1060px;
+    position: relative;
+}
+
+.footer {
+    background-color: rgba(21, 31, 36, 0.8);
+    margin-left: 0px;
+}
+
+
 /*--note  文字樣式 -- */
 
 .title {
@@ -55,9 +115,32 @@ footer {
 }
 
 
+/*--note  表格樣式 -- */
+
+table {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: rgb(208, 208, 208);
+}
+
+table>thead {
+    background-color: transparent;
+    border-bottom: 1px solid #00FBFF;
+}
+
+table tr,
+table th,
+table td {
+    border: none;
+}
+
+
 /*--note  視窗樣式 -- */
 
-.win2,
+.win3,
+.history,
+.news_win,
 .win4,
 .win5 {
     background: #151F24;
@@ -65,15 +148,13 @@ footer {
     opacity: 0.9;
 }
 
-.win2 {
+.news_win {
     height: 410px;
+    overflow: hidden;
 }
 
 .history,
 .win3 {
-    background: #151F24;
-    margin: 5px;
-    opacity: 0.9;
     height: 94px;
 }
 
@@ -219,60 +300,26 @@ footer {
 }
 
 @media screen and (max-width: 479px) {
-    .r-logo2 {
+    .r-logo2,
+    .win3 {
         display: none;
     }
-    .win2 {
-        height: 60px;
+    .news_win {
+        transition: width 2s;
+        -moz-transition: width 2s;
+        /* Firefox 4 */
+        -webkit-transition: width 2s;
+        /* Safari 和 Chrome */
+        -o-transition: width 2s;
+        /
     }
-}
-
-
-/*--note  表格樣式 -- */
-
-table {
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    color: rgb(208, 208, 208);
-}
-
-table>thead {
-    background-color: transparent;
-    border-bottom: 1px solid #00FBFF;
-}
-
-table tr,
-table th,
-table td {
-    border: none;
-}
-
-
-/*--note  首頁-調整圖層 -- */
-
-.adj {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
-
-.map {
-    background: url(../img/map.png) no-repeat;
-    background-size: 100%;
-    height: 100vh;
-    width: 100%;
-    z-index: 1;
-}
-
-.adj {
-    background-image: radial-gradient(circle at 50% 15%, rgba(0, 197, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/山.jpg);
-}
-
-.chartBanner {
-    background: rgba(0, 0, 0, 0.5);
-    height: 650px;
-    width: 100%;
+    .news_win:hover {
+        height: 410px;
+    }
+    .news_win,
+    .history {
+        height: 74px;
+    }
 }
 
 
@@ -280,39 +327,6 @@ table td {
 
 .leader-logo {
     margin-top: 10.706rem;
-}
-
-
-/*--note background -- */
-
-.bg101 {
-    background-image: url(../img/101.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 831px;
-}
-
-.bg3 {
-    background-image: url(../img/b3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 986px;
-}
-
-.bg4 {
-    background-image: url(../img/b4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 1060px;
-    position: relative;
-}
-
-.footer {
-    background-color: rgba(21, 31, 36, 0.8);
-    margin-left: 0px;
 }
 
 
