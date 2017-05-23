@@ -207,12 +207,11 @@ table td {
     margin-top: 0.7%;
 }
 
-.t-up {
+.t-top {
     background: url(../img/t-up.svg)no-repeat;
     background-size: 100%;
     width: 300px;
     height: 281px;
-    z-index: 2;
     right: 0px;
     position: absolute;
 }
@@ -223,7 +222,7 @@ table td {
     width: 300px;
     height: 281px;
     bottom: 0px;
-    right: 0;
+    right: 0px;
     position: absolute;
 }
 
@@ -296,10 +295,31 @@ table td {
 @media screen and (max-width: 859px) {}
 
 @media screen and (max-width: 479px) {
+    .ncdr,
+    .logo-footer {
+        display: inline-block;
+    }
     .r-logo2,
-    .win3 {
+    .icons {
         display: none;
     }
+    .login-tlas-win {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+    .top {
+        display: none;
+    }
+    .bg3 {
+        height: 100vh;
+    }
+    /*----temp-----*/
+    .login {
+        display: none;
+    }
+    /*---------*/
     .news_win {
         transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
