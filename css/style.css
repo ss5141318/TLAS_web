@@ -303,23 +303,9 @@ table td {
     .icons {
         display: none;
     }
-    .login-tlas-win {
-        height: 100%;
-        width: 100%;
-        position: relative;
-        top: 0;
-    }
-    .top {
-        display: none;
-    }
     .bg3 {
         height: 100vh;
     }
-    /*----temp-----*/
-    .login {
-        display: none;
-    }
-    /*---------*/
     .news_win {
         transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
@@ -345,21 +331,14 @@ table td {
 
 /*--note icon --*/
 
-.logo2,
 .logo-footer {
     background: url(../img/logo.svg)no-repeat;
 }
 
-a>img,
-.logo2 {
+a>img {
     width: 100%;
     height: 100%;
     padding-left: 3%;
-}
-
-.logo2 {
-    top: 30%;
-    position: absolute;
 }
 
 .logo-footer {
