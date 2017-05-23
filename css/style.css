@@ -305,13 +305,10 @@ table td {
         display: none;
     }
     .news_win {
-        transition: width 2s;
-        -moz-transition: width 2s;
-        /* Firefox 4 */
-        -webkit-transition: width 2s;
-        /* Safari 和 Chrome */
-        -o-transition: width 2s;
-        /
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
     }
     .news_win:hover {
         height: 410px;
