@@ -293,11 +293,7 @@ table td {
 
 /*--note rwd*/
 
-@media screen and (max-width: 859px) {
-    .r-logo2 {
-        display: none;
-    }
-}
+@media screen and (max-width: 859px) {}
 
 @media screen and (max-width: 479px) {
     .r-logo2,
@@ -311,9 +307,6 @@ table td {
         -o-transition: all 0.5s ease-in-out;
     }
     .news_win:hover {
-        height: 410px;
-    }
-    .news_win:active {
         height: 410px;
     }
     .news_win,
