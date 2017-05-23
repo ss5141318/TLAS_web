@@ -313,6 +313,9 @@ table td {
     .news_win:hover {
         height: 410px;
     }
+    .news_win:active {
+        height: 410px;
+    }
     .news_win,
     .history {
         height: 74px;
