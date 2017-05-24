@@ -170,7 +170,7 @@ table td {
 }
 
 .win4 {
-    height: 280px;
+    height: 100%;
 }
 
 .win5 {
@@ -330,7 +330,7 @@ table td {
     }
     .bg3 {
         height: 100vh;
-        background-position: 50% 30%;
+        background-position: 60% 30%;
     }
     .news_win {
         transition: all 0.5s ease-in-out;
@@ -376,8 +376,28 @@ a>img {
 .ncdr {
     background: url(../img/NCDR_logo.png)no-repeat;
     background-size: 100%;
-    height: 100px;
     width: 164px;
+    height: 100px;
+}
+
+.public:before {
+    content: "";
+    background: url(../img/p_icon.svg)no-repeat;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px 20px 0px 0px;
+}
+
+.civil:before {
+    content: "";
+    background-image: url('../img/c_icon.svg');
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 23px;
+    display: inline-block;
+    margin: 5px 20px 0px 0px;
 }
 
 .scoll_down {
@@ -398,7 +418,14 @@ a>img {
 
 .scoll_up:hover,
 .scoll_down:hover {
-    content: "";
+    -webkit-transition: All 0.2s ease-in-out;
+    -moz-transition: All 0.2s ease-in-out;
+    -o-transition: All 0.2s ease-in-out;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 
