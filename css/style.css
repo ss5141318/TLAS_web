@@ -314,6 +314,13 @@ table td {
 @media screen and (max-width: 859px) {}
 
 @media screen and (max-width: 479px) {
+    .top-nav-link {
+        margin-right: 8%;
+    }
+    .login-public,
+    .login-civil {
+        display: none;
+    }
     .t-down {
         background-size: 100%;
         width: 300px;
