@@ -83,9 +83,12 @@ footer {
 
 /*--note  文字樣式 -- */
 
+.margin-top {
+    margin-top: 80%;
+}
+
 .title {
     /*
-    
     position: relative;
     padding: 0.31rem 0.9rem;
     width: auto;
@@ -112,6 +115,10 @@ footer {
     line-height: 1.55rem;
     color: #6d6d6d;
     text-align: justify;
+}
+
+.title-line {
+    text-align: center;
 }
 
 
@@ -214,6 +221,7 @@ table td {
     height: 281px;
     right: 0px;
     position: absolute;
+    z-index: 1;
 }
 
 .t-bottom {
@@ -225,6 +233,16 @@ table td {
     bottom: 0px;
     right: 0px;
     position: absolute;
+}
+
+.title-line:before,
+.title-line:after {
+    content: "";
+    display: inline-block;
+    background-color: #00FBFF;
+    height: 1px;
+    width: 2.5rem;
+    margin: 6px 10px;
 }
 
 
@@ -293,9 +311,6 @@ table td {
 
 /*--note rwd*/
 
-
-/*--note rwd*/
-
 @media screen and (max-width: 859px) {}
 
 @media screen and (max-width: 479px) {
@@ -307,6 +322,7 @@ table td {
     .ncdr,
     .logo-footer {
         display: inline-block;
+        margin: 5px;
     }
     .r-logo2,
     .icons {
@@ -314,6 +330,7 @@ table td {
     }
     .bg3 {
         height: 100vh;
+        background-position: 50% 30%;
     }
     .news_win {
         transition: all 0.5s ease-in-out;
