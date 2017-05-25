@@ -314,6 +314,9 @@ table td {
 @media screen and (max-width: 859px) {}
 
 @media screen and (max-width: 479px) {
+    .r-logo {
+        border-top: 1px solid #00FBFF;
+    }
     .top-nav-link {
         margin-right: 0.2rem;
     }
