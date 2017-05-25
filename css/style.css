@@ -322,6 +322,7 @@ table td {
     }
     .ncdr,
     .logo-footer {
+        background-size: 40%;
         display: inline-block;
         margin-right: 0.2rem;
     }
