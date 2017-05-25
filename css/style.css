@@ -349,8 +349,7 @@ table td {
     .news_win:hover {
         height: 22rem;
     }
-    .news_win,
-    .history {
+    .news_win {
         height: 3.5rem;
     }
 }
