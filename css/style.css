@@ -12,7 +12,7 @@ footer {
     color: rgb(208, 208, 208);
 }
 
-.block {
+.block_custom {
     display: block;
     cursor: pointer;
     white-space: nowrap;
@@ -148,10 +148,6 @@ table td {
 
 
 /*--note  視窗樣式 -- */
-
-.ss {
-    margin-bottom: 0;
-}
 
 .win3,
 .history,
@@ -339,7 +335,6 @@ table td {
         display: inline-block;
         margin-right: 0.2rem;
     }
-    .hide,
     .ftb,
     .r-logo2,
     .icons,
@@ -386,7 +381,6 @@ table td {
         margin-right: 0.2rem;
     }
     
-    .hide,
     .ftb,
     .r-logo2,
     .icons,

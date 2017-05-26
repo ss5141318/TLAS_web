@@ -5809,9 +5809,7 @@ html[dir="rtl"] [class*=" icon-ui-"]:before {
     white-space: nowrap;
     font-size: 0.9375rem;
     line-height: 1.55rem;
-    
 }
-
 
 .btn:hover {
     text-decoration: none;

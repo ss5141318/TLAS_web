@@ -1,0 +1,94 @@
+@media screen and (max-width: 1449px) and (min-width: 860px) {
+    .phone-show {
+        display: none !important;
+    }
+    .tablet-show {
+        display: none !important;
+    }
+    .tablet-only {
+        display: none !important;
+    }
+    .large-only {
+        display: none !important;
+    }
+    .large-show {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 859px) and (min-width: 480px) {
+    .tablet-hide {
+        display: none !important;
+    }
+    .phone-show {
+        display: none !important;
+    }
+    .large-only {
+        display: none !important;
+    }
+    .large-show {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .phone-hide {
+        display: none !important;
+    }
+    .tablet-hide {
+        display: none !important;
+    }
+    .tablet-only {
+        display: none !important;
+    }
+    .large-only {
+        display: none !important;
+    }
+    .large-show {
+        display: none !important;
+    }
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hide {
+    display: none !important;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visually-hidden-focusable {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visually-hidden-focusable:active,
+.visually-hidden-focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
