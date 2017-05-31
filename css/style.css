@@ -23,12 +23,6 @@ footer {
 
 /*--note  首頁-調整圖層 -- */
 
-.adj {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
-
 .map {
     background: url(../img/map.png) no-repeat;
     background-size: 100%;
@@ -39,6 +33,9 @@ footer {
 
 .adj {
     background-image: radial-gradient(circle at 50% 15%, rgba(0, 197, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/山.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 }
 
 .chartBanner {
@@ -54,7 +51,6 @@ footer {
     background-image: url(../img/101.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     height: 831px;
 }
 
@@ -63,7 +59,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 986px;
+    height: 50rem;
 }
 
 .bg4 {
@@ -111,7 +107,7 @@ footer {
 }
 
 .p2 {
-    font-size: 0.875rem;
+    font-size: 0.6rem;
     line-height: 1.55rem;
     color: #6d6d6d;
     text-align: justify;
