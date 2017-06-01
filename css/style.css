@@ -65,7 +65,7 @@ footer {
     background-image: url(../img/b4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50rem;
+    height: 60rem;
     position: relative;
 }
 
@@ -332,7 +332,7 @@ table td {
 
 @media screen and (max-width: 859px) and (min-width: 480px) {
     .margin-top {
-        margin-top: 30%;
+        margin-top: 40%;
     }
     .news_win:hover {
         height: 22rem;
@@ -350,6 +350,9 @@ table td {
 }
 
 @media screen and (max-width: 479px) {
+    .magin_custom {
+        margin: 80% auto;
+    }
     .bg4 {
         height: 700px;
     }
