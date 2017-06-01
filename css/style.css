@@ -325,9 +325,6 @@ table td {
 /*--note rwd*/
 
 @media screen and (max-width: 859px) {
-    .margin-top {
-        margin-top: 48%;
-    }
     .bg4 {
         height: 700px;
     }
