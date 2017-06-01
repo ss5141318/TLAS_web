@@ -330,6 +330,22 @@ table td {
 
 /*--note rwd*/
 
+@media screen and (max-width: 859px) and (min-width: 480px) {
+    .news_win:hover {
+        height: 22rem;
+    }
+    .news_win {
+        height: 3.5rem;
+    }
+    .ftb,
+    .r-logo2,
+    .icons,
+    .login-public,
+    .login-civil {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 479px) {
     .bg4 {
         height: 700px;
@@ -349,7 +365,6 @@ table td {
         display: inline-block;
         margin-right: 0.2rem;
     }
-    .magin_custom,
     .ftb,
     .r-logo2,
     .icons,
