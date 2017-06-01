@@ -155,6 +155,11 @@ table td {
 
 /*--note  視窗樣式 -- */
 
+.magin_custom {
+    margin-left: 23.75vw;
+    margin-right: 23.75vw;
+}
+
 .win3,
 .history,
 .news_win,
@@ -325,11 +330,9 @@ table td {
 
 /*--note rwd*/
 
-@media screen and (max-width: 859px) {
-    @media screen and (max-width: 479px) {
-        .bg4 {
-            height: 700px;
-        }
+@media screen and (max-width: 479px) {
+    .bg4 {
+        height: 700px;
     }
     .r-logo {
         border-top: 1px solid #00FBFF;
@@ -346,6 +349,7 @@ table td {
         display: inline-block;
         margin-right: 0.2rem;
     }
+    .magin_custom,
     .ftb,
     .r-logo2,
     .icons,
