@@ -51,7 +51,7 @@ footer {
     background-image: url(../img/101.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 831px;
+    height: 50rem;
 }
 
 .bg3 {
@@ -65,7 +65,7 @@ footer {
     background-image: url(../img/b4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1060px;
+    height: 50rem;
     position: relative;
 }
 
@@ -145,6 +145,7 @@ table td {
 
 .top-nav {
     background-color: #18282F;
+    border-bottom: 1px solid #079faf;
 }
 
 .top-nav-link {
@@ -325,9 +326,6 @@ table td {
 /*--note rwd*/
 
 @media screen and (max-width: 859px) {
-    .bg4 {
-        height: 700px;
-    }
     @media screen and (max-width: 479px) {
         .bg4 {
             height: 700px;
