@@ -141,6 +141,17 @@ table td {
 }
 
 
+/*--note  導覽列樣式 -- */
+
+.top-nav {
+    background-color: #18282F;
+}
+
+.top-nav-link {
+    color: #E8E8E8;
+}
+
+
 /*--note  視窗樣式 -- */
 
 .win3,
