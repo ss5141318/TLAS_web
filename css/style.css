@@ -331,6 +331,9 @@ table td {
 /*--note rwd*/
 
 @media screen and (max-width: 859px) and (min-width: 480px) {
+    .margin-top {
+        margin-top: 30%;
+    }
     .news_win:hover {
         height: 22rem;
     }
