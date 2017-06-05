@@ -626,8 +626,8 @@
     
     .slick-dots li button {
         background: #304249;
-        width: 19px;
-        height: 4px;
+        width: 1px;
+        height: 1px;
     }
     
     li.slick-active button {
