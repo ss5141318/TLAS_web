@@ -595,11 +595,7 @@
     a:hover {
         color: #00FBFF;
     }
-    /*temp*/
-    
-    .slick-center .slide-h3 {
-        color: #FFF;
-    }
+    /* note   slick css*/
     
     .slider {
         width: 80%;
@@ -621,3 +617,20 @@
         max-height: 20% !important;
         opacity: 1;
     }
+    /*  note  輪播 dots     */
+    
+/*
+    .slick-dots li button:before {
+        content: "";
+    }
+    
+    .slick-dots li button {
+        background: #304249;
+        width: 19px;
+        height: 4px;
+    }
+    
+    li.slick-active button {
+        background: #00FDFF;
+    }
+*/
