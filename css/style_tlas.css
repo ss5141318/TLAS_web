@@ -75,6 +75,10 @@
         margin-top: 80%;
     }
     
+    .margin-auto {
+        margin: auto;
+    }
+    
     .title {
         /*
     position: relative;
@@ -295,6 +299,7 @@
         -webkit-filter: none;
     }
     /*-- note opacity example-- */
+    /*
      .hover {
          position: relative;
      }
@@ -312,6 +317,7 @@
          opacity: 0;
          滑鼠滑入時，透明度變0
      }
+*/
     /*--note rwd*/
     
     @media screen and (max-width: 859px) and (min-width: 480px) {
@@ -621,9 +627,8 @@
         max-height: 20% !important;
         opacity: 1;
     }
-    /*  note  輪播 dots     */
-    
-/*
+    /*  note  輪播 dots 樣式     */
+    /*
     .slick-dots li button:before {
         content: "";
     }
