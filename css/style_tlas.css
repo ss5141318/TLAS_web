@@ -520,6 +520,7 @@
         display: inline-block;
         background-position: center;
     }
+    /*輪播樣式 舊的*/
     
     .carousel-dot.is-active {
         background-color: #00FBFF;
@@ -601,20 +602,13 @@
     }
     
     .slider {
-        width: 600px;
-        height: 0px;
-        margin: 20px auto;
+        width: 80%;
+        margin: 50px auto;
         text-align: center;
     }
     
-    .slide-h3 {
-        margin: 10% 0 10% 0;
-        padding: 40% 20%;
-        background: #008ed6;
-    }
-    
     .slider div {
-        margin-right: 5px;
+        margin-right: 1px;
     }
     
     .slick-slide {
