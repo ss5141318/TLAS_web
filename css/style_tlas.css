@@ -328,7 +328,7 @@
          滑鼠滑入時，透明度變0
      }
 */
-    /*--note rwd*/
+    /*--note custom rwd*/
     
     @media screen and (max-width: 1050px) and (min-width: 860px) {
         .login-public,
@@ -343,6 +343,7 @@
             width: 27rem;
         }
     }
+    /*--note rwd*/
     
     @media screen and (max-width: 859px) and (min-width: 480px) {
         .margin-top {
