@@ -349,6 +349,12 @@
         .margin-top {
             margin-top: 40%;
         }
+        .news_win {
+            transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -webkit-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+        }
         .news_win:hover {
             height: 22rem;
         }
