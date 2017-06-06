@@ -330,6 +330,20 @@
 */
     /*--note rwd*/
     
+    @media screen and (max-width: 1050px) and (min-width: 860px) {
+        .login-public,
+        .login-civil {
+            width: 22rem;
+        }
+    }
+    
+    @media screen and (max-width: 1312px) and (min-width: 1051px) {
+        .login-public,
+        .login-civil {
+            width: 27rem;
+        }
+    }
+    
     @media screen and (max-width: 859px) and (min-width: 480px) {
         .margin-top {
             margin-top: 40%;
@@ -427,6 +441,11 @@
         background-size: 95%;
         width: 164px;
         height: 100px;
+    }
+    
+    .public,
+    .civil {
+        margin-left: 10px;
     }
     
     .public:before {
