@@ -140,9 +140,15 @@
     .top-nav {
         background-color: #18282F;
         border-bottom: 1px solid #079faf;
+        position: fixed;
+        width: 100%;
     }
     
     .top-nav-link {
+        color: #E8E8E8;
+    }
+    
+    .top-nav-title {
         color: #E8E8E8;
     }
     /*--note  視窗樣式 -- */
@@ -641,5 +647,11 @@
     
     li.slick-active button {
         background: #00FDFF;
+    }
+*/
+    /*  note  直式 樣式     */
+    /*
+    .vertical>.slick-dots li {
+        display: block;
     }
 */
