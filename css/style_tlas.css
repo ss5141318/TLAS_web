@@ -211,6 +211,11 @@ table td {
     opacity: 0.9;
 }
 
+.win3 {
+    background-image: radial-gradient(circle at -18% -30%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.9)), linear-gradient(rgba(21, 31, 36, 0.9), rgba(21, 31, 36, 1));
+    box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
 .news_win {
     height: 410px;
     overflow: hidden;
@@ -256,6 +261,7 @@ table td {
 .login-tlas-win-large {
     background-image: radial-gradient(circle at 23% -3%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), linear-gradient(151deg, #00ffff, rgba(0, 0, 0, 0.7)), url(../img/b3.jpg);
     background-size: cover;
+    box-shadow: 39px 9px 41px 0 rgba(0, 0, 0, 0.5);
 }
 
 .r1 {
