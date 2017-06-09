@@ -401,6 +401,9 @@ table td {
 /*--note rwd*/
 
 @media screen and (max-width: 859px) and (min-width: 480px) {
+    .bg3 {
+        background-position: 60%, 10%;
+    }
     .login-tlas-win {
         background-position: 40% 30%;
     }
@@ -430,7 +433,8 @@ table td {
 
 @media screen and (max-width: 479px) {
     .bg3 {
-        height: 50rem;
+        background-position: 50%;
+        height: 40rem;
     }
     .magin_custom {
         margin: 80% auto;
@@ -535,7 +539,8 @@ a>img {
     background-image: url('../img/c_icon.svg');
     background-repeat: no-repeat;
     height: 40px;
-    width: 23px;
+    width: 40px;
+    background-position: 50%;
     display: inline-block;
     margin: 5px 20px 0px 0px;
 }
