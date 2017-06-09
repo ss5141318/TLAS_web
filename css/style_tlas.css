@@ -59,7 +59,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 55rem;
-    z-index: 1;
 }
 
 .bg4 {
@@ -251,7 +250,7 @@ table td {
 .login-tlas-win {
     height: 100%;
     position: relative;
-    background-image: radial-gradient(circle at 23% -3%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), linear-gradient(151deg, #00ffff, rgba(0, 0, 0, 0.7)), url(../img/b3.jpg);
+    background-image: radial-gradient(circle at 23% -3%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
 }
 
 .login-tlas-win-large {
@@ -430,6 +429,9 @@ table td {
 }
 
 @media screen and (max-width: 479px) {
+    .bg3 {
+        height: 50rem;
+    }
     .magin_custom {
         margin: 80% auto;
     }
