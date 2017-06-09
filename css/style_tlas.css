@@ -58,7 +58,7 @@ footer {
     background-image: url(../img/b3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50rem;
+    height: 55rem;
     z-index: 1;
 }
 
@@ -83,7 +83,7 @@ h6 {
 }
 
 .margin-top {
-    margin-top: 80%;
+    margin-top: 10%;
 }
 
 .margin-auto {
@@ -170,6 +170,33 @@ table td {
 
 /*--note  視窗樣式 -- */
 
+.circle:after {
+    content: "";
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 100%;
+    margin: auto;
+    border: 1px solid #00FBFF;
+    position: absolute;
+    z-index: 1;
+}
+
+.circle {
+    width: 482px;
+    height: 482px;
+    border-radius: 100%;
+    border: 4px solid #00FBFF;
+    position: relative;
+    z-index: 2;
+}
+
+.z-3 {
+    position: relative;
+    z-index: 3;
+}
+
 .magin_custom {
     margin-left: 23.75vw;
     margin-right: 23.75vw;
@@ -224,12 +251,12 @@ table td {
 .login-tlas-win {
     height: 100%;
     position: relative;
+    background-image: radial-gradient(circle at 23% -3%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), linear-gradient(151deg, #00ffff, rgba(0, 0, 0, 0.7)), url(../img/b3.jpg);
 }
 
-.login-tlas-win2 {
+.login-tlas-win-large {
     background-image: radial-gradient(circle at 23% -3%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), linear-gradient(151deg, #00ffff, rgba(0, 0, 0, 0.7)), url(../img/b3.jpg);
-    width: 1212px;
-    height: 756.5px;
+    background-size: cover;
 }
 
 .r1 {
@@ -375,6 +402,9 @@ table td {
 /*--note rwd*/
 
 @media screen and (max-width: 859px) and (min-width: 480px) {
+    .login-tlas-win {
+        background-position: 40% 30%;
+    }
     .margin-top {
         margin-top: 40%;
     }
@@ -428,7 +458,7 @@ table td {
     .login-civil {
         display: none;
     }
-    .bg3 {
+    .login-tlas-win {
         background-position: 60% 30%;
     }
     .news_win {
