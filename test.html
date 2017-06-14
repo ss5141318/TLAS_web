@@ -54,34 +54,320 @@
 </style>
 
 <body>
-    <section>
-        <div class="single-item slider">
 
-            <div>
-                <img src="../img/swcb.png ">
+
+    <section>
+        <style>
+            /* 下方其他訊息的背景 */
+            
+            #bottomContent {
+                font-family: 微軟正黑體!important;
+                width: 960px;
+                background: none;
+                margin: 0px auto !important;
+                margin-top: 200px !important;
+                border-radius: 0px;
+                -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.0);
+                -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.0);
+                -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.0);
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.0);
+                margin: 15px 0 10px 0;
+                border: 0px solid #B3B3B3;
+            }
+            
+            #bottomContent #organizationSection {
+                border-bottom: 0px solid #d8d8d5;
+                margin: 0 10px;
+            }
+            
+            .wrapper {
+                background: none;
+                margin: 130px auto;
+                margin-bottom: 88px;
+            }
+            
+            .title p:first-child {
+                font-weight: 600;
+                font-family: 微軟正黑體;
+                color: #C3FFF4;
+                font-size: 25px
+            }
+            
+            .title p:last-child {
+                font-family: 微軟正黑體;
+                color: #C3FFF4;
+                font-size: 14px;
+                margin: -20px 0;
+            }
+            
+            .tableNews {
+                border-collapse: collapse;
+                margin-top: 30px;
+                font-weight: 100;
+                color: white;
+                font-size: 16px;
+                width: 100%;
+            }
+            
+            .tableNews a {
+                display: block;
+                color: white !important;
+                text-decoration: none;
+            }
+            
+            .tableNews a:hover {
+                color: white !important;
+                text-decoration: none !important;
+                cursor: pointer;
+            }
+            
+            .tableNews tr {
+                line-height: 40px;
+                height: 40px
+            }
+            
+            .tableNews tr:hover {
+                background: rgba(255, 255, 255, 0.2);
+            }
+            
+            .tableNews tr:first-child {
+                color: #0f2540;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+                /* background: rgba(255, 255, 255, 0.2); */
+            }
+            
+            .tableNews tr:first-child:hover {
+                background: none;
+                color: #0f2540;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+                /* background: rgba(255, 255, 255, 0.2); */
+            }
+            
+            .tableNews th,
+            .tableNews td {
+                padding-left: 15px:
+            }
+            
+            .tableNews th:last-child {
+                width: 100px;
+            }
+            
+            .footerCUS {
+                width: 100%;
+                border-top: 1px solid white;
+                color: white;
+            }
+            
+            .footerCUS ul {
+                margin-left: -40px;
+                float: left;
+            }
+            
+            .footerCUS ul:last-child {
+                float: right;
+                color: white !important;
+                text-decoration: none;
+            }
+            
+            .footerCUS ul:last-child a {
+                color: white !important;
+            }
+            
+            .footerCUS li {
+                list-style: none;
+                line-height: 30px;
+                font-size: 14px;
+            }
+
+        </style>
+        <div class="wrapper">
+            <div class="title">
+                <p>海域資訊專區</p>
+                <p>Maritime Information Service Center</p>
             </div>
-            <div>
-                <h3 style=" background:#44f59c;">2</h3>
-            </div>
-            <div>
-                <h3 style=" background:#44f59c;">3</h3>
-            </div>
-            <div>
-                <h3 style=" background:#44f59c;">4</h3>
-            </div>
-            <div>
-                <h3 style=" background:#44f59c;">5</h3>
-            </div>
-            <div>
-                <h3 style=" background:#44f59c;">6</h3>
-            </div>
-            <div>
-                <h3 style=" background:#44f59c;">7</h3>
-            </div>
+            <table class="tableNews">
+                <tbody>
+                    <tr>
+                        <th>單位</th>
+                        <th>標題</th>
+                        <th>日期</th>
+                    </tr>
+                    <tr>
+                        <td>總統府</td>
+                        <td><a href="http://maritimeinfo.moi.gov.tw/marineweb/LayFrom0.aspx?icase=T02&amp;pid=0000002002" target="_blank">中華民國政府對「南海仲裁案」之立場</a> </td>
+                        <td>2016/07/12</td>
+                    </tr>
+                    <tr>
+                        <td>外交部</td>
+                        <td><a href="http://maritimeinfo.moi.gov.tw/marineweb/LayFrom0.aspx?icase=T02&amp;pid=0000002004" target="_blank">中華民國外交部對「南海仲裁案」之立場</a> </td>
+                        <td>2016/07/12</td>
+                    </tr>
+                    <tr>
+                        <td>內政部</td>
+                        <td><a href="http://maritimeinfo.moi.gov.tw/marineweb/LayFrom0.aspx?icase=T02&amp;pid=0000002006" target="_blank">內政部對南海仲裁結果之立場</a> </td>
+                        <td>2016/07/12</td>
+                    </tr>
+                    <tr>
+                        <td>外交部</td>
+                        <td><a href="http://maritimeinfo.moi.gov.tw/marineweb/LayFrom0.aspx?icase=T04&amp;pid=0000001998" target="_blank"> 外交部首度安排國內及國際媒體赴太平島參訪</a> </td>
+                        <td>2016/03/23</td>
+                    </tr>
+                    <tr>
+                        <td>外交部</td>
+                        <td><a href="http://maritimeinfo.moi.gov.tw/marineweb/LayFrom0.aspx?icase=T04&amp;pid=0000001999" target="_blank">總統召開中外記者會</a> </td>
+                        <td>2016/03/22</td>
+                    </tr>
+                    <tr>
+                        <td>外交部</td>
+                        <td><a href="http://maritimeinfo.moi.gov.tw/marineweb/LayFrom0.aspx?icase=T02&amp;pid=0000001996" target="_blank">中華民國南海政策說帖</a> </td>
+                        <td>2016/03/22</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footerCUS">
+            <ul>
+                <li>版權所有 © 2014 內政部大陸礁層專案辦公室</li>
+                <li>電話：02-22221234</li>
+                <li>地址：(10055)臺北市中正區徐州路五號七樓</li>
+                <li>更新日期：2016/5/16</li>
+            </ul>
+            <ul>
+                <li><a href="http://maritimeinfo.moi.gov.tw/marineweb/Layout_Z2.aspx" target="_blank">網站安全政策</a></li>
+                <li><a href="http://maritimeinfo.moi.gov.tw/marineweb/Layout_Z1.aspx" target="_blank">隱私權安護政策</a></li>
+                <li><a href="http://maritimeinfo.moi.gov.tw/marineweb/Layout_Z3.aspx" target="_blank">著作權聲明</a></li>
+            </ul>
         </div>
     </section>
 
+    <section>
+        <div>
+            <div>
+                <style>
+                    #header {
+                        background: #0f2540;
+                        width: 100%;
+                    }
+                    
+                    .top-nav-link {
+                        color: white!important;
+                    }
+                    
+                    body.esri {
+                        background-image: radial-gradient(circle at 35% 11%, #50c6de, #1c61b1);
+                    }
+                    
+                    #matrixLayout {
+                        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                        -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                        -o-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                        border-bottom: 8px solid #242833;
+                    }
+                    /* ---- CONTAINER -------------------最大的寬設定*/
+                    
+                    .container_12 {
+                        width: 100%;
+                    }
+                    /* ---- ROTATOR ---------------------*/
+                    
+                    #homeRotate {
+                        margin-bottom: 0;
+                        height: 500px;
+                    }
+                    
+                    #homeRotate .detailsShort {
+                        height: 500px!important;
+                    }
+                    
+                    #homeRotate .detailsShort .matrixLayoutShort {
+                        -webkit-border-radius: 0px;
+                        -moz-border-radius: 0px;
+                        -o-border-radius: 0px;
+                        border-radius: 0;
+                        height: 500px!important;
+                        box-shadow: none;
+                        background: url('http://i.imgur.com/8O5wdjN.png') no-repeat;
+                        background-position: 67%;
+                        background-size: cover;
+                        overflow: hidden;
+                    }
+                    
+                    .imgRotator {
+                        background: url('http://i.imgur.com/fV4bLNa.png') no-repeat;
+                        position: relative;
+                        width: 497px;
+                        height: 76px;
+                        margin: 100px auto;
+                    }
+                    /**/
+                    
+                    #featuredMaps {
+                        background: none;
+                        width: 960px;
+                        margin: -256px auto;
+                        border: 0;
+                    }
+                    
+                    #featuredMaps #fHeader,
+                    #featuredMaps #fHeader h2 {
+                        display: none;
+                    }
+                    
+                    #featuredMaps .prevButton {
+                        background: url('http://www.nats.aero/wp-content/themes/nats-sas/images/arrow-left.png');
+                        width: 50px;
+                        height: 50px;
+                        left: -40px;
+                    }
+                    
+                    #featuredMaps .nextButton {
+                        background: url('http://www.nats.aero/wp-content/themes/nats-sas/images/arrow-right.png');
+                        width: 50px;
+                        height: 50px;
+                        right: -40px;
+                    }
+                    
+                    #featuredMaps .prevButton,
+                    #featuredMaps .nextButton {
+                        top: 38%;
+                        margin-top: -25px;
+                    }
+                    
+                    .prevButtonDisabled,
+                    .nextButtonDisabled {
+                        opacity: 0.6;
+                        ------------
+                    }
+                    
+                    #gallery .galleryNode .galleryThumbnail {
+                        border: 1px solid white;
+                        padding: 6px;
+                        border-radius: 0;
+                        box-shadow: none;
+                        background: none;
+                    }
+                    
+                    .galleryBackground {
+                        height: 230px;
+                    }
+                    
+                    .galleryNode .galleryLabelContainer {
+                        color: white;
+                    }
+                    
+                    .esriItemLinks a,
+                    .esriItemLinks a:link,
+                    .esriItemLinks a:hover,
+                    .esriItemLinks a:active,
+                    .esriItemLinks a:visited {
+                        color: white;
+                    }
 
+                </style>
+            </div>
+        </div>
+    </section>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -94,6 +380,7 @@
                 verticalSwiping: true
 
             });
+
 
 
 

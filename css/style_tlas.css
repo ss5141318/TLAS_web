@@ -422,8 +422,8 @@ table td {
         -webkit-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
     }
-    .news_win:hover {
-        height: 22rem;
+    .news_win:active {
+        height: 25rem;
     }
     .news_win {
         height: 3.5rem;
