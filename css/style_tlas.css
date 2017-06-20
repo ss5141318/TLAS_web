@@ -81,8 +81,12 @@ h6 {
     color: #fff;
 }
 
-.margin-top {
+.margin-top10 {
     margin-top: 10%;
+}
+
+.margin-top5 {
+    margin-top: 5%;
 }
 
 .margin-auto {
@@ -169,6 +173,28 @@ table td {
 
 /*--note  視窗樣式 -- */
 
+input {
+    background-color: #00FBFF;
+    border: none;
+}
+
+.label-key {
+    padding: .25em .5em;
+    border-radius: 3px;
+    font-size: .85em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.labely-key:before {
+    content: "";
+    background: url(../img/p_icon.svg)no-repeat;
+    width: 10px;
+    height: 12px;
+    display: inline-block;
+    margin: 5px 20px 0px 0px;
+}
+
 .circle:after {
     content: "";
     top: 5%;
@@ -238,6 +264,7 @@ table td {
     height: 230px;
 }
 
+.login,
 .login-tlas-win,
 .history {
     background: rgba(21, 31, 36, 0.9);
@@ -245,11 +272,6 @@ table td {
 
 .history {
     height: 94px;
-}
-
-.login {
-    position: relative;
-    top: 50%;
 }
 
 .login-tlas-win {
@@ -691,7 +713,8 @@ a>img {
 }
 
 .btn,
-.btn2 {
+.btn2,
+.btn3 {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -707,8 +730,18 @@ a>img {
     color: aliceblue;
 }
 
+.btn3 {
+    color: aliceblue;
+    padding-top: 30%;
+    width: 69px;
+    height: 69px;
+    border-radius: 100%;
+    border: 1px solid #00FBFF;
+}
+
 .btn:hover,
-.btn2:hover {
+.btn2:hover,
+.btn3:hover {
     text-decoration: none;
     background-color: #0bb1c9;
 }
