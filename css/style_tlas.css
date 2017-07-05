@@ -496,6 +496,9 @@ input {
         background-position: 60% 30%;
     }
     .news_win {
+        width: 100vw;
+    }
+    .news_win {
         transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -webkit-transition: all 0.5s ease-in-out;
