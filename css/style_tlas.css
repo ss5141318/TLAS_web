@@ -20,6 +20,11 @@ footer {
     line-height: 1.55rem;
 }
 
+.news_win {
+    width: 100vw;
+    max-width: 100vw;
+}
+
 
 /*--note  首頁-調整圖層 -- */
 
@@ -494,9 +499,6 @@ input {
     }
     .login-tlas-win {
         background-position: 60% 30%;
-    }
-    .news_win {
-        width: 100vw;
     }
     .news_win {
         transition: all 0.5s ease-in-out;
